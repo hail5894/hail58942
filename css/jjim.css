@@ -1,0 +1,351 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------jjim--------------*/
+.jjim {
+    width: 100%;
+    
+    margin-top: 12%;
+    
+}
+
+.jjim .jjim_1 {text-align: center;}
+
+.jjim .jjim_1 hr {
+    width: 60%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+}
+
+.jjim .jjim_1 a {
+    text-decoration: none;
+}
+
+.jjim .jjim_1 a h2 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+.jjim .jjim_1 a ::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+  
+
+    
+}
+
+
+
+
+
+
+
+/*-------------상품-----------*/
+
+
+/*goods width 70%→60%/ .description height 300px→250px 수정함*/
+.goods {
+    width: 60%;
+
+    margin: 0 auto;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 12px;
+ 
+    
+}
+
+.goods h2 {
+
+    margin: 0 auto;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 14px;
+    margin-top: 80px;
+    /*  margin-top: 14%;*/
+
+}
+
+.goods .m_1 {
+    margin: 1% auto;
+    padding-right: 2%;
+
+
+}
+
+.goods .m_1 .m_1-1 {
+    border: 1px solid #000;
+}
+
+.goods .m_1 .m_1-1 .description {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+
+
+}
+
+.goods .m_1 .m_1-1 .description a {
+    height: 100%;
+    display: block;
+
+}
+
+.goods .m_1 .m_1-1 .description a p {
+    height: 220px;
+    width: 100%;
+}
+
+
+
+.goods .m_1 .m_1-1 .description a p img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.goods .m_1 .m_1-1 .description figcaption {}
+
+
+.goods .m_1 .m_1-1 .description figcaption .section1{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    /*background: rgba(255,255,255,0.3);*/
+   
+   
+    
+
+}
+.goods .m_1 .description:hover figcaption .section1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+/*------review----*/
+.goods .m_1 .description figcaption .section1 .review {
+    font-weight: bold;
+    height: 0;
+       border: none;
+    background: none;
+    text-decoration: none;
+    opacity: 0;
+}
+
+
+
+
+/*---------button------*/
+.goods .m_1 .description figcaption .section1 .button {
+    width: 100px;
+    text-align: center;
+
+}
+
+/*--1,3번쨰 버튼 안보이게함*/
+.goods .m_1 .description figcaption .section1 .button button:nth-of-type(1),.goods .m_1 .description figcaption .section1 .button button:nth-of-type(3){
+    display: none;
+}
+
+/*------*/
+.goods .m_1 .description figcaption .section1 .button button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 26%;
+
+}
+
+.goods .m_1 .description .section1 .button button img {
+    width: 100%;
+
+
+}
+
+.goods .m_1 .description .section1 .button button:hover img {
+    transform: scale(1.4);
+    transition: .7s;
+
+}
+
+
+/*하트클릭하면 빨강색으로 변하게하기 active*/
+
+
+.goods .m_1 .m_1-1 .description figcaption .section1 .button img.active,
+.goods .m_1 .m_1-1 .description figcaption .section1 .button img.active:hover {
+        content: url('../img/icon_heart2.png');
+        width: 100%;
+    transform: scale(2) translate(60%,70%);
+
+   
+}
+/*하트 빨간색 변하게 하기*/
+
+.goods .m_1 .m_1-1 .description figcaption .section1 .button .heart{
+   
+    width: 100%;
+    
+}
+.goods .m_1 .m_1-1 .description figcaption .section1 .button .heart:hover {
+       content: url('../img/icon_heart2.png');
+        width: 100%;
+    transform: scale(2.4);
+       
+    
+    
+}
+
+/*밑에 쩌리들 buy now..*/
+.goods .m_1 .buy_now {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 0;
+     border-top: 1px solid #000;
+
+}
+
+.goods .m_1 .buy_now a {
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+    text-decoration: none;
+
+
+}
+.goods .m_1 .buy_now a:nth-of-type(2){
+    border-left: 1px solid #000;
+}
+/*----------------*/
+
+/*상품 글씨들*/
+.goods .m_1 .m_1-1 .description .section2 {
+    text-align: left;
+    padding: 5% 0;
+    line-height: 1;  
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+ 
+
+}
+
+.goods .m_1 .m_1-1 .description .section2 p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 2.2em;
+}
+
+
+.goods .m_1 .m_1-1 .description .section2 p:nth-of-type(1){
+    font-size: 13px;
+} 
+.goods .m_1 .m_1-1 .description .section2 p:nth-of-type(2) {
+    color: #888888;
+}
+
+.goods .m_1 .m_1-1 .description .section2 strong {
+    color: #49904f;
+    display: block;
+/*   padding: 7% 0;*/
+    font-size: 15px;
+
+
+}
+
+
+
+/*EVENT ->m_1이랑 같은위치*/
+
+.event .description span{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    border: 2px solid #fa1e1e;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+/*--------------table----------------*/
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+
+}
+
+.table a {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+
+    border-collapse: collapse;
+
+
+}
+
+.table a img {
+    width: 8px;
+    height: 8px;
+
+
+}
+
+.table ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.table ol li {
+    display: block;
+}
+
+.table ol li a {
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: 14px
+}

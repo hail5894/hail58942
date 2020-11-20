@@ -1,0 +1,716 @@
+@import url(common.css);
+
+
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+
+/*--------------*/
+.main {
+    position: relative;
+    height: 40vw;
+
+}
+
+.main .slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    margin-right: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+}
+
+.main .slide .s_v1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+}
+
+.main .slide .s_v1 .s_bn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+/*
+
+
+.main .slide .slide_1:nth-of-type(1) {
+    left: 0%;
+
+
+}
+.main .slide .slide_1:nth-of-type(2) {
+    left: 100%;
+ 
+}
+
+.main .slide .slide_1:nth-of-type(3) {
+    left: 200%;
+}
+
+.main .slide .slide_1:nth-of-type(4) {
+    left: 300%;  
+}
+.main .slide .slide_1:nth-of-type(5) {
+    left: 400%;
+}
+
+*/
+
+
+
+
+
+
+.main .slide .s_v1 .s_bn > p {
+    position: relative;
+    font-size: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main .slide .s_v1 .s_bn > p img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main .slide .s_v1 .s_bn section {
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    width: 50%;
+    color: #ebf8f0;
+    white-space: pre-line;
+
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.main .slide .s_v1 .s_bn section h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .slide .s_v1 .s_bn section p {
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+
+.main .slide .s_v1 .s_bn section p a {
+    color: #ebf8f0;
+    text-decoration: none;
+    border: 1px solid #ebf8f0;
+    display: inline-block;
+
+    text-align: center;
+    padding: 12px 30px;
+    margin-top: 60px;
+}
+
+
+/*메인의 아이콘(화살표,동그라미)*/
+.main .icon {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+
+.main .icon p:nth-of-type(1) {
+    float: left;
+}
+
+.main .icon p:nth-of-type(2) {
+    float: right;
+
+}
+
+.main .icon p img {}
+
+
+.main .circle {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main .circle span {
+    opacity: .8;
+}
+
+
+
+.main .circle span img {
+    height: 10px;
+    margin: 0 8px;
+}
+
+.main .circle span img.active {
+    transform: scale(1.4);
+    opacity: 1;
+}
+
+/*-------상품--------------*/
+
+
+.goods {
+    width: 65%;
+    margin: 5% auto;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 12px;
+
+}
+
+
+.goods h2 {
+    margin: 1% auto;
+    font-size: 20px;
+}
+
+.goods .m_1 {
+    padding-right: 2%;
+    margin: 1% 0;
+}
+
+
+
+.goods .m_1 .description {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.goods .m_1 .description a {
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.goods .m_1 .description a p {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+
+.goods .m_1 .description a p img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.goods .m_1 .description figcaption {}
+
+
+.goods .m_1 .description figcaption .section1 {
+    position: absolute;
+    left: 0%;
+    top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+    transition: .6s;
+}
+
+
+.goods .m_1 .description:hover figcaption .section1 {
+    opacity: .8;
+    transition: 1s;
+}
+
+/*------review----*/
+.goods .m_1 .description figcaption .section1 .review {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    height: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*---------button------*/
+.goods .m_1 .description figcaption .section1 .button {
+    width: 100px;
+    text-align: center;
+
+}
+
+
+.goods .m_1 .description figcaption .section1 .button button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 26%;
+    margin-left: 4px;
+
+}
+
+.goods .m_1 .description .section1 .button button img {
+    width: 100%;
+
+
+}
+
+.goods .m_1 .description .section1 .button button:hover img {
+    transform: scale(1.4);
+    transition: .7s;
+
+}
+
+
+/*하트클릭하면 빨강색으로 변하게하기 active*/
+
+
+.goods .m_1 .m_1-1 .description figcaption .section1 .button img.active,
+.goods .m_1 .m_1-1 .description figcaption .section1 .button img.active:hover {
+    content: url('../img/icon_heart2.png');
+    width: 100%;
+    transform: scale(2);
+}
+
+
+
+/*하트 빨간색 변하게 하기*/
+
+.goods .m_1 .description figcaption .section1 .button .heart {
+
+    width: 100%;
+
+}
+
+.goods .m_1 .description figcaption .section1 .button .heart:hover {
+    content: url('../img/icon_heart2.png');
+    width: 100%;
+    transform: scale(2.4);
+
+
+
+}
+
+/*----------------*/
+
+/*상품 글씨들*/
+.goods .m_1 .description .section2 {
+    text-align: left;
+    padding: 5% 0;
+    line-height: 1.5em;
+}
+
+
+.goods .m_1 .description .section2 p {
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.goods .m_1 .description .section2 p:nth-of-type(1) {
+    font-size: 13px;
+}
+
+.goods .m_1 .description .section2 p:nth-of-type(2) {
+    color: #888888;
+    font-size: 12px;
+}
+
+.goods .m_1 .description .section2 strong {
+    color: #49904f;
+    display: block;
+    margin: 7% auto;
+    font-size: 14px;
+
+
+}
+
+
+/*EVENT ->m_1이랑 같은위치*/
+.event .description span {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    border: 2px solid #fa1e1e;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*---하단-----*/
+.free {
+    width: 100%;
+
+    /*background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.2));*/
+    background: url('../img/ba_3.jpg') no-repeat;
+    opacity: .7;
+    margin: 2% auto;
+    margin-top: 6%;
+    text-align: center;
+
+
+}
+
+.free h2 {
+    padding-top: 30px;
+    font-size: 48px;
+    color: #000;
+    font-family: 'Source Serif Pro', serif;
+    white-space: pre-line;
+}
+
+.free p {
+    font-size: 24px;
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.free p:nth-of-type(2) {
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+
+
+}
+
+.free p a {
+    border: 1px solid #b5b5b5;
+    background: #eee;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+
+
+}
+
+/*------review 전체----------------*/
+.down {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #131313;
+
+
+    position: relative;
+}
+
+/*review*/
+.down .review {
+    margin-right: 5%;
+}
+
+
+.down .review .review_bu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    position: relative;
+
+
+}
+
+.down .review .review_bu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5;
+    opacity: .5;
+
+}
+
+.down .review .review_bu h2 {
+    font-size: 14px;
+    color: #49904f;
+}
+
+.down .review .review_bu button {
+    border: none;
+    background: none;
+
+}
+
+.down .review .review_bu button a {
+    font-size: 10px;
+}
+
+.down .review {
+    width: 60%;
+}
+
+.down .review ul {
+    padding-top: 20px;
+}
+
+.down .review ul li {
+    list-style: disc;
+    line-height: 2em;
+    font-size: 12px;
+
+
+
+}
+
+.down .review ul li a {
+    text-decoration: none;
+
+}
+
+.down .review ul li a span {}
+
+/*--------info-----*/
+.info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dbdbdb;
+    width: 50%;
+    line-height: 2em;
+
+}
+
+.info .call {
+    width: 50%;
+    padding: 25px;
+    padding-top: 50px;
+    text-align: center;
+    border-right: 1px solid #dbdbdb;
+
+
+}
+
+.info .call h2 {
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+
+.info .call p {
+
+    font-size: 12px;
+}
+
+.info .call p img {
+    width: 54px;
+}
+
+.info .bus {
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.info .bus p {
+    font-size: 12px;
+}
+
+.info .bus p img {
+    width: 70px;
+    height: 50px;
+}
+
+.info .bus h2 {
+    font-size: 14px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: bold;
+    padding-top: 16px;
+
+}
+
+.info .bus p a {}
+
+/*-----------event----*/
+
+
+
+.down .event {
+    width: 60%;
+    height: 130px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+
+    margin-left: 5%;
+
+
+}
+
+
+
+
+.down .event a {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+    opacity: 0;
+    animation: fade 6s infinite;
+  
+}
+
+.down event a:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+.down .event a:nth-of-type(2) {
+    animation-delay: 2s;
+}
+
+.down .event a:nth-of-type(3) {
+    animation-delay: 4s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+        
+    }
+
+    5%,
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+   
+    
+}
+
+.down .event img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .down  event a:nth-of-type(1){
+      left: 0;
+    margin-right: 50px;}
+.down .event a:nth-of-type(2){
+      left: 100%;
+    margin-right: 50px;}
+.down .event a:nth-of-type(3){
+      left: 200%;
+margin-right: 50px;} */
+
+/*--fixed-----------*/
+.fixed {
+    position: fixed;
+    left: 40%;
+    top: 25%;
+    height: 450px;
+    border: 1px solid #edeae5;
+    background: rgba(237, 234, 229, 0.7);
+    display: none;
+
+}
+
+.fixed .fixed_1 {
+    position: relative;
+}
+
+.fixed .fixed_1 a {}
+
+.fixed .fixed_1 a p {
+    width: 90%;
+    transform: translateX(3%);
+    margin: 6% 2%;
+
+
+
+
+}
+
+.fixed .fixed_1 a p img {
+    width: 100%;
+    height: 200px;
+
+}
+
+
+.fixed .fixed_1 span {}
+
+
+.fixed .fixed_1 span {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    border: 2px solid #fa1e1e;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.fixed .fixed_1 .fixed_2 {}
+
+.fixed .fixed_1 .fixed_2 p {
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fixed .fixed_1 .fixed_2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fixed .fixed_1 .fixed_2 strong {
+    text-align: center;
+    color: #49904f;
+    padding-right: 50px;
+    font-size: 18px;
+
+
+}
+
+.fixed .fixed_1 .fixed_2 p a {
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+
+/*---------------*/

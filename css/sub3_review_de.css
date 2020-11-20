@@ -1,0 +1,669 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------상품event--------------*/
+.review {
+    width: 100%;
+ 
+    margin-top: 12%;
+    
+}
+
+.review .review_1 {text-align: center;}
+
+.review .review_1 hr {
+    width: 60%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+}
+
+.review .review_1 a {
+    text-decoration: none;
+}
+
+.review .review_1 a h2 {
+    margin-top: 3%;
+     font-family: 'Nanum Myeongjo', serif;
+}
+
+
+
+.review .review_1 a ::after {
+     content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+}
+
+
+.review .review_1 p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+
+/*---------후기 상세글------------*/
+
+.review_de{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 12px;
+    border-top: 1px solid #8d8e8e;
+    border-bottom: 1px solid #8d8e8e;
+    font-family: 'Nanum Gothic Coding', monospace;
+    position: relative;
+ 
+}
+.review_de .review_de_bu {
+    position: absolute;
+    right: 0;
+    top: 0;
+   transform: translateY(-130%);
+   
+}
+.review_de .review_de_bu button{
+     background: #fff;
+     border: 1px solid #e7e7e7;
+}
+
+.review_de .review_de_bu button a{
+    text-decoration: none;
+}
+
+
+
+.review_de .title{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 2% auto;
+}
+.review_de .title p{
+    width: 10%;
+}
+.review_de .title p a{}
+.review_de .title p a img{
+   width: 100%;
+}
+
+.review_de .title .title_1{
+ margin: 0 30px;
+}
+.review_de .title .title_1 h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+   
+   
+}
+.review_de .title .title_1 h2 a{
+    text-decoration: none;
+    padding-right: 5px;
+    text-decoration: none;
+    
+   
+}
+.review_de .title .title_1 h2 a img{}
+.review_de .title .title_1 p{
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.review_de .title .title_1 button{
+    font-size: 10px;
+    background: none;
+    border: 1px solid #eee;
+    line-height: 2em;
+    
+}
+.review_de .title .title_1 button a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.review_de .review-1{
+    width: 100%;
+}
+.review_de .review-1 caption{
+    display: none;
+}
+
+.review_de .review-1 .re_list{
+ 
+}
+.review_de .review-1 .re_list tr{
+ padding: 10px 0 8px 20px;
+  border-top: 1px solid #e7e7e7;}
+.review_de .review-1 .re_list tr:nth-of-type(4){
+    border-top: 1px solid #8d8e8e;
+}
+.review_de .review-1 .re_list tr th{
+     width: 50px;
+    padding: 5px 0;
+    
+}
+.review_de .review-1 .re_list tr td{
+}
+
+
+
+.review_de .review-1 .re_list .re_list1
+{padding-left: 2%;}
+
+
+
+.review_de .review-1 .re_list tr td ul{
+    display: flex;
+    justify-content: flex-start;
+  margin: 1% 0;
+    
+    
+}
+
+.review_de .review-1 .re_list tr td ul li{
+    margin-right: 10%;
+    text-align: center;
+}
+.review_de .review-1 .re_list tr td ul li strong{
+  
+}
+
+.review_de .review-1 .re_list tr td ul li span{
+
+}
+.review_de .review-1 .re_list tr td ul li:nth-of-type(1) span{
+ padding: 0 25px;
+}
+
+
+.review_de .review-1 .re_list tr td ul li span a{
+    margin-left:10px;
+    text-decoration: none;
+    border: 1px solid #eee;
+    padding: 5px 2px;
+    
+  
+    
+    
+}
+
+.re_main{
+    
+}
+.re_main p{
+   
+    white-space: pre-line;
+    margin: 6% 0;
+  
+}
+
+
+
+/*--------------------------------*/
+
+.review_de2 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.review_de2 ul {
+    border-bottom: 1px solid #f7f7f7;
+    font-size: .8em;
+    width: 100%;
+    padding: 10px 0 8px 10px;
+
+}
+
+.review_de2 ul:nth-of-type(1) {
+    border-top: 1px solid #f7f7f7;
+
+
+}
+
+.review_de2 ul li {
+    padding: 0 0 0 10px;
+}
+
+.review_de2 ul li a {
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+.review_de2 ul li a strong {}
+
+
+/*-------------*/
+.comment{
+    background-color: #f7f7f7;
+    border: 1px solid #f0ede9;}
+.comment_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    
+}
+.comment_1 .comment_1-1{
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+    
+   
+ 
+}
+
+.comment_1 .comment_1-1 p{
+    padding-left:20px;
+    margin: 0;
+   
+  
+}
+.comment_1 .comment_1-2{
+    margin: 0;
+   
+}
+.comment_1 .comment_1-2 a{
+    padding: 4px;
+    margin: 0;
+    border: 1px solid #f0ede9;
+    background-color: #fff;
+   
+  
+    
+}
+
+.comment_2{
+    border-top: 1px solid #f0ede9;
+    height: 80px;
+  
+}
+.comment_2 span{
+    font-size: 12px;
+}
+
+
+
+/*--모바일--*/
+@media (max-width: 1251px) and (min-width: 991px) {
+    .review_de{width: 80%;}
+}
+@media (min-width:768px) and (max-width:991px){
+    
+    .review {
+   margin-top: 14%;  }
+
+
+.review .review_1 hr {
+  display: none;
+}
+.review_de{
+    width: 80%;
+    margin-top: 60px;
+}
+
+.review_de .review_de_bu button{
+    font-size: 12px;
+    }
+
+
+.review_de .title p{
+    width: 22%;}
+
+
+.review_de .title .title_1{ }
+.review_de .title .title_1 button{
+ line-height: 2em;}
+
+
+.review_de .review-1 .re_list tr th{
+     width: 40px;
+    padding: 5px 0;
+    
+}
+.review_de .review-1 .re_list tr td{
+    line-height: 20px;
+}
+
+
+
+.review_de .review-1 .re_list .re_list1
+{padding-left: 3%;}
+
+
+
+.review_de .review-1 .re_list tr td ul{
+    display: flex;
+   justify-content: flex-start;
+
+}
+
+.review_de .review-1 .re_list tr td ul li{
+    margin-right: 6%; 
+}
+.review_de .review-1 .re_list tr td ul li strong{
+  
+}
+
+.review_de .review-1 .re_list tr td ul li span{
+
+white-space: nowrap;
+}
+.review_de .review-1 .re_list tr td ul li:nth-of-type(1) span{
+ padding: 0 25px;
+}
+
+
+.review_de .review-1 .re_list tr td ul li span a{
+     padding: 4px 2px;
+    font-size: 12px;
+    margin: 0;
+  
+    }
+
+.re_main p{
+font-size: 13px;
+}
+
+
+
+/*--------------------------------*/
+
+.review_de2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.review_de2 ul {
+    border-bottom: 1px solid #f7f7f7;
+    font-size: 12px;
+    width: 100%;
+    padding: 10px 0 8px 10px;
+
+}
+.review_de2 ul:nth-of-type(2){
+        margin-bottom: 40px;
+    }
+
+.review_de2 ul li a {
+    padding: 0 2%;
+ 
+}
+
+
+/*-------------*/
+
+.comment_1 .comment_1-2 a{
+    padding: 2px;
+    font-size: 12px; 
+}
+    
+    
+}
+ /*-------768----------*/   
+@media (min-width:480px) and (max-width:768px){
+.review {
+   margin-top: 18%;  }
+
+
+.review .review_1 hr {
+  display: none;
+}
+.review_de{
+    width: 80%;
+    margin-top: 60px;
+}
+
+.review_de .review_de_bu button{
+    font-size: 12px;
+    }
+
+
+.review_de .title p{
+    width: 20%;}
+
+
+.review_de .title .title_1{
+  margin: 0 20px;
+    }
+.review_de .title .title_1 button{
+ line-height: 1.5em;}
+
+
+.review_de .review-1 .re_list tr th{
+     width: 40px;
+    padding: 5px 0;
+    
+}
+.review_de .review-1 .re_list tr td{
+    line-height: 20px;
+}
+
+
+
+.review_de .review-1 .re_list .re_list1
+{padding-left: 3%;}
+
+
+
+.review_de .review-1 .re_list tr td ul{
+    display: flex;
+   justify-content: flex-start;
+
+}
+
+.review_de .review-1 .re_list tr td ul li{
+    margin-right: 4%; 
+}
+.review_de .review-1 .re_list tr td ul li strong{
+  
+}
+
+.review_de .review-1 .re_list tr td ul li span{
+
+white-space: nowrap;
+}
+.review_de .review-1 .re_list tr td ul li:nth-of-type(1) span{
+ padding: 0 2px;
+}
+
+
+.review_de .review-1 .re_list tr td ul li span a{
+     padding: 4px 1px;
+    font-size: 10px;
+    transform: translateX(-5%);
+    margin: 0;
+  
+    }
+
+.re_main p{
+font-size: 12px;
+}
+
+
+
+/*--------------------------------*/
+
+.review_de2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.review_de2 ul {
+    border-bottom: 1px solid #f7f7f7;
+    font-size: 11px;
+    width: 100%;
+    padding: 10px 0 8px 10px;
+
+}
+.review_de2 ul:nth-of-type(2){
+        margin-bottom: 30px;
+    }
+
+.review_de2 ul li a {
+    padding: 0 2%;
+ 
+}
+
+
+/*-------------*/
+
+.comment_1 .comment_1-2 a{
+    padding: 2px;
+    font-size: 12px; 
+}
+    
+}
+/*480--------------*/
+@media (max-width:480px) {
+.review {
+   margin-top: 18%;  }
+
+
+.review .review_1 hr {
+  display: none;
+}
+.review_de{
+    width: 80%;
+    margin-top: 60px;
+}
+
+.review_de .review_de_bu button{
+    font-size: 10px;
+    }
+
+
+.review_de .title p{
+    width: 25%;}
+
+
+.review_de .title .title_1{
+  margin: 0 20px;
+    }
+.review_de .title .title_1 button{
+ line-height: 1.5em;}
+
+
+.review_de .review-1 .re_list tr th{
+     width: 40px;
+    padding: 5px 0;
+    
+}
+.review_de .review-1 .re_list tr td{
+    line-height: 20px;
+}
+
+
+
+.review_de .review-1 .re_list .re_list1
+{padding-left: 2%;}
+
+
+
+.review_de .review-1 .re_list tr td ul{
+    display: flex;
+   justify-content: flex-start;
+
+}
+
+.review_de .review-1 .re_list tr td ul li{
+    margin-right: 1%; 
+}
+.review_de .review-1 .re_list tr td ul li strong{
+  
+}
+
+.review_de .review-1 .re_list tr td ul li span{
+
+white-space: nowrap;
+}
+.review_de .review-1 .re_list tr td ul li:nth-of-type(1) span{
+ padding: 0 1px;
+}
+
+
+.review_de .review-1 .re_list tr td ul li span a{
+     padding: 4px 1px;
+    font-size: 10px;
+    transform: translateX(-5%);
+    margin: 0;
+    display: none;
+    }
+
+.re_main p{
+font-size: 12px;
+}
+
+
+
+/*--------------------------------*/
+
+.review_de2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.review_de2 ul {
+    border-bottom: 1px solid #f7f7f7;
+    font-size: 10px;
+    width: 100%;
+    padding: 10px 0 8px 10px;
+
+}
+    .review_de2 ul:nth-of-type(2){
+        margin-bottom: 30px;
+    }
+
+.review_de2 ul li a {
+    padding: 0 2%;
+ 
+}
+
+.review_de2 ul li a strong {}
+
+
+/*-------------*/
+
+.comment_1 .comment_1-2 a{
+    padding: 2px;
+    font-size: 10px; 
+}
+
+    
+    
+    
+    
+    
+}

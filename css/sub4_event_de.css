@@ -1,0 +1,203 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------상품event--------------*/
+.event {
+    width: 100%;
+  
+    margin-top: 12%;
+}
+
+.event .event_1 {
+    text-align: center;
+}
+
+.event .event_1 hr {
+    width: 70%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+}
+
+.event .event_1 a {
+    text-decoration: none;
+}
+
+.event .event_1 a h2 {
+    margin-top: 3%;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.event .event_1 a ::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+}
+
+
+.event .event_1 p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+
+/*---------상세글------------*/
+table {
+    width: 60%;
+    margin: 0 auto;
+}
+
+table caption {
+    display: none;
+}
+
+table tbody {
+    display: block;
+    margin: 70px auto;
+
+
+}
+
+table tbody tr {
+
+    border-bottom: 1px solid #e7e7e7;
+    font-size: .8em;
+    width: 100%;
+
+
+
+
+}
+
+table tbody tr:nth-of-type(1) {
+    border-top: 1px solid #e7e7e7;
+
+}
+
+table tbody tr th {
+    width: 10%;
+    font-weight: normal;
+    padding: 10px 0 8px 10px;
+
+}
+
+table tbody tr td {
+    padding: 0 40px;
+
+}
+
+
+table tbody tr td figure {
+    width: 100%;
+
+    margin: 60px auto;
+    border: 10px solid #edeae5;
+    text-align: left;
+    margin-top: 80px;
+}
+
+
+table tbody tr td figure img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table tbody tr td figure figcaption {
+
+    white-space: pre-line;
+    line-height: 30px;
+    margin-top: 60px;
+
+
+}
+
+table tbody tr td figure figcaption article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+table tbody tr td figure figcaption article h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+table tbody tr td figure figcaption article p {
+    font-size: 14px;
+    color: #505051;
+    margin-top: 40px;
+}
+
+table tbody tr td figure figcaption article:nth-of-type(2) p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+table tbody tr td .small {
+    font-size: 10px;
+
+
+}
+
+.file{
+    width: 8px;
+    margin-right: 4px;
+}
+
+/*--------------------------------*/
+
+.event-2 {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.event-2 ul {
+    border-bottom: 1px solid #e7e7e7;
+    font-size: .8em;
+    width: 100%;
+    padding: 10px 0 8px 10px;
+
+}
+
+.event-2 ul:nth-of-type(1) {
+    border-top: 1px solid #e7e7e7;
+
+
+}
+
+.event-2 ul li {
+    padding: 0 0 0 10px;
+}
+
+.event-2 ul li a {
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+.event-2 ul li a strong {}

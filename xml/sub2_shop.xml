@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <type>p001</type>
+        <kind>머리비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods1.jpg</imgSrc>
+        <tit_1>(선정 1위)머리빡 비누</tit_1>
+        <tit_2>#올리브 성분 생기 넘치는 머리 건강</tit_2>
+        <price>15.000원</price>
+        <event>EVENT</event>
+        <review>2,700</review>
+        <num>p001</num>
+    </item>
+    
+    <item>
+        <type>p002</type>
+        <kind>세안비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods2.jpg</imgSrc>
+        <tit_1>얼굴빡 비누</tit_1>
+        <tit_2>#꿀성분으로 영양 촉촉</tit_2>
+        <price>15.000원</price>
+        <review>2,199</review>
+        <num>p002</num>
+    </item>
+    
+    <item>
+        <type>p003</type>
+        <kind>몸비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods3.jpg</imgSrc>
+        <tit_1>각질빡 비누</tit_1>
+        <tit_2>#어성초 성분으로 각질 케어</tit_2>
+        <price>15.000원</price>
+        <event>EVENT</event>
+        <review>23,009</review>
+        <num>p003</num>
+    </item>
+    
+    <item>
+        <type>p002</type>
+        <kind>세안비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods4.jpg</imgSrc>
+        <tit_1>시크릿빡 비누</tit_1>
+        <tit_2>#나 쌩얼이야~ 화장한거 같은 민낯</tit_2>
+        <price>10.000원</price>
+        <review>3</review>
+        <num>p004</num>
+    </item>
+    
+    <item>
+        <type>p001</type>
+        <kind>머리비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods5.jpg</imgSrc>
+        <tit_1>(네이봐 1위)대갈빡 비누</tit_1>
+        <tit_2>#5년 숙성 한방 재료 머리가 나요</tit_2>
+        <price>15.000원</price>
+        <review>4,009</review>
+    </item>
+    
+    <item>
+        <type>p002</type>
+        <kind>세안비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods6.jpg</imgSrc>
+        <tit_1>(강력추천)여드름빡 비누</tit_1>
+        <tit_2>#맨들맨들 꿀피부 내얼굴</tit_2>
+        <price>15.000원</price>
+        <review>2,009</review>
+        <num>p005</num>
+    </item>
+    
+    <item>
+        <type>p003</type>
+        <kind>몸비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods7.jpg</imgSrc>
+        <tit_1>모유아토빡 비누</tit_1>
+        <tit_2>#모유성분, 아토피 안녕~</tit_2>
+        <price>15.000원</price>
+        <review>1,004</review>
+        <event>EVENT</event>
+        <num>p006</num>
+    </item>
+    
+    <item>
+        <type>p004</type>
+        <kind>발비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods8.jpg</imgSrc>
+        <tit_1>무좀빡 비누</tit_1>
+        <tit_2>#아기 발같은 내 발</tit_2>
+        <price>10.000원</price>
+        <review>2,200</review>
+        <event>EVENT</event>
+        <num>p007</num>
+       
+    </item>
+    
+    <item>
+        <type>p003</type>
+        <kind>몸비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods9.jpg</imgSrc>
+         <tit_1>(신제품)깻잎팍 비누</tit_1>
+        <tit_2>#여드름 염증 완화</tit_2>
+        <price>15.000원</price>
+        <review>2,339</review>
+        <num>p008</num>
+    </item>
+    
+    <item>
+        <type>p003</type>
+        <kind>몸비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods10.jpg</imgSrc>
+         <tit_1>샤워빡 비누</tit_1>
+        <tit_2>#자몽 추출물 #내 살냄새야</tit_2>
+        <price>15.000원</price>
+        <event>EVENT</event>
+        <review>2,199</review>
+        <num>p009</num>
+       
+    </item>
+    
+    <item>
+        <type>p002</type>
+        <kind>세안비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods11.jpg</imgSrc>
+        <tit_1>앵두빡 비누</tit_1>
+        <tit_2>#기미를 없애주는데 도와주는 여름 한정판 비누</tit_2>
+        <price>15.000원</price>
+        <review>2,000</review>
+        <num>p010</num>
+    </item>
+    
+    <item>
+        <type>p003</type>
+        <kind>몸비누</kind>
+        <url>sub2_shop_de.html</url>
+        <re>sub3_review.html</re>
+        <imgSrc>img/shop/ba_goods12.jpg</imgSrc>
+        <tit_1>라임올리브빡 비누</tit_1>
+        <tit_2>#아기 전용 비누 #엄청 순해요</tit_2>
+        <price>10.000원</price>
+        <review>4,000</review>
+        <event>EVENT</event>
+        <num>p011</num>
+
+    </item>
+
+
+
+</items>

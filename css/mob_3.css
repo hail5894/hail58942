@@ -1,0 +1,383 @@
+@import url(common.css);
+
+/*------------------모바일-------------------------*/
+@media (max-width: 1251px) and (min-width: 991px) {
+       figure {
+        width: 85%;
+        margin: 10px auto;
+        border: 10px solid #edeae5;
+        text-align: left;
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .brand .brand_1 hr {
+        display: none;
+    }
+       
+    .brand {
+        margin: 12% auto;
+    }
+     .brand .brand_1 p {
+        font-size: 16px;
+        padding: 2% 0;
+    }
+
+    /*=====*/
+    figure {
+        width: 100%;
+        margin: 10px auto;
+        border: 10px solid #edeae5;
+        text-align: left;
+  }
+
+
+
+     figure figcaption {
+
+    line-height: 28px;
+    margin: 25px 0;
+}
+
+
+
+figure figcaption article h2 {
+font-size: 22px;
+ text-align: center; 
+ margin-top: 20px;
+}
+
+figure figcaption article h2 > p {
+    margin-top: 15px;
+    font-size: 18px;
+    width: 100%;
+
+
+}
+
+figure figcaption article p {
+    font-size: 14px;
+    color: #505051;
+    margin-top: 25px;
+   
+    width: 80%;
+}
+    
+/*---event-da*/
+   
+    .event .event_1 hr {display: none;}
+    .event .event_1 {
+      margin-top: 120; }
+    
+    table{ 
+        width: 90%;
+      
+    }
+    table tbody tr td{
+        padding: 0; }
+    table tbody tr td figure {
+    width: 100%;
+
+    margin: 40px auto;
+    border: 5px solid #edeae5;
+    text-align: left;
+   
+}
+
+
+table tbody tr td figure img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table tbody tr td figure figcaption {
+
+    white-space: pre-line;
+    line-height: 26px;
+    margin-top: 0px;
+
+
+}
+
+
+table tbody tr td figure figcaption article h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+table tbody tr td figure figcaption article p {
+    font-size: 14px;
+    color: #505051;
+    margin-top: 20px;
+}
+
+table tbody tr td figure figcaption article:nth-of-type(2) p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table tbody tr td .small {
+    font-size: 14px;
+    white-space: normal;}
+
+
+    
+.event-2 {
+        width: 90%;
+        font-size: 12px;
+    }
+
+}
+
+/*-----------*/
+@media (min-width:480px) and (max-width:768px) {
+    .brand .brand_1 hr {
+        display: none;}
+    .brand {
+        margin: 14% auto;
+    }
+     .brand .brand_1 p {
+        font-size: 14px;
+        padding: 2% 0;
+    }
+
+    /*=====*/
+    figure {
+        width: 100%;
+        margin: 20px auto;
+        border: 5px solid #edeae5;
+        text-align: left;
+  }
+
+
+
+     figure figcaption {
+
+    line-height: 25px;
+    margin: 25px 0;
+}
+
+
+
+figure figcaption article h2 {
+font-size: 20px;
+ text-align: center; 
+ margin-top: 18px;
+}
+
+figure figcaption article h2 > p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+
+
+}
+
+figure figcaption article p {
+    font-size: 12px;
+    color: #505051;
+    margin-top: 14px;
+   
+    width: 80%;
+}
+    
+/*---event-da*/
+   
+    .event .event_1 hr {display: none;}
+    .event .event_1 {
+      margin-top: 18%; }
+    
+    table{ 
+        width: 100%;
+        font-size: 12px;
+    }
+    table tbody tr td{
+        padding: 0; }
+    table tbody tr td figure {
+    width: 100%;
+
+    margin: 10px auto;
+    border: 5px solid #edeae5;
+    text-align: left;
+   
+}
+
+
+table tbody tr td figure img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table tbody tr td figure figcaption {
+
+    white-space: pre-line;
+    line-height: 26px;
+    margin-top: 0px;
+
+
+}
+
+
+table tbody tr td figure figcaption article h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+table tbody tr td figure figcaption article p {
+    font-size: 15px;
+    color: #505051;
+    margin-top:20px;
+}
+
+table tbody tr td figure figcaption article:nth-of-type(2) p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table tbody tr td .small {
+    font-size: 13px;
+    white-space: normal;}
+
+table tbody .fires{
+        display: none;
+    }
+    
+.event-2 {
+        width: 90%;
+        font-size: 12px;
+    }
+}
+
+/*--480-----------------------------*/
+@media (max-width:480px) {
+/*-----brand*/
+    .brand {
+        margin: 18% auto;
+    }
+
+    .brand .brand_1 hr {
+        display: none;
+    }
+
+    .brand .brand_1 p {
+        font-size: 14px;
+        padding: 2% 0;
+    }
+
+    /*=====*/
+    figure {
+        width: 100%;
+        margin: 0px auto;
+        border: 2px solid #edeae5;
+        text-align: left;
+  }
+
+
+    figure img {
+        width: 100%;
+    }
+
+    figure figcaption {
+
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+
+
+figure figcaption article h2 {
+font-size: 18px;
+ text-align: center; 
+ margin-top: 10px;
+}
+
+figure figcaption article h2 > p {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;
+
+
+}
+
+figure figcaption article p {
+    font-size: 12px;
+    color: #505051;
+    margin-top: 16px;
+   
+    width: 80%;
+}
+
+/*--------event_de*/
+    .event .event_1 hr {display: none;}
+    .event .event_1 {
+      margin-top: 18%; }
+    
+    table{
+        width: 100%;
+        font-size: 12px;
+    }
+    table tbody tr td{
+        padding: 0;
+    }
+    table tbody tr td figure {
+    width: 100%;
+
+    margin: 10px auto;
+    border: 5px solid #edeae5;
+    text-align: left;
+   
+}
+
+
+table tbody tr td figure img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table tbody tr td figure figcaption {
+
+    white-space: pre-line;
+    line-height: 26px;
+    margin-top: 0px;
+
+
+}
+
+
+table tbody tr td figure figcaption article h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+table tbody tr td figure figcaption article p {
+    font-size: 12px;
+    color: #505051;
+    margin-top:20px;
+}
+
+table tbody tr td figure figcaption article:nth-of-type(2) p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+table tbody tr td .small {
+    font-size: 10px;
+    white-space: normal;}
+
+table tbody .fires{
+        display: none;
+    }
+    
+.event-2 {
+        width: 90%;
+        font-size: 12px;
+    }
+}

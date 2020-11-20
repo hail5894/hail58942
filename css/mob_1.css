@@ -1,0 +1,501 @@
+@import url(common.css);
+
+/*------------------모바일-------------------------*/
+
+@media (max-width: 1251px) and (min-width: 991px) {
+    
+    .goods{width: 85%;}
+    .goods .m_1 .description a p {
+        height: 190px;
+    }
+
+    .goods .m_1 .description figcaption {
+        margin-top: 10px;
+    }
+
+    .goods .m_1 .description figcaption .section1 {
+        top: 160px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .jjim .jjim_1 hr {
+        display: none;
+    }
+
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*--*/
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 14px;
+
+    }
+
+    .goods h2 {
+        margin-top: 5%;
+
+        font-size: 14px;
+    }
+
+    .goods .m_1 {
+        padding: 2%;
+        width: 50%;
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+        height: 220px;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .goods .m_1 .description figcaption {}
+
+
+    .goods .m_1 .description figcaption .section1 {
+        top: 58%;
+    }
+
+    .goods .m_1 .description figcaption .section1 .review {
+        font-size: 12px;
+    }
+
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active,
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active:hover {
+        content: url('../img/icon_heart2.png');
+        width: 100%;
+        transform: scale(2) translateY(30%);
+        margin-left: 130%;
+
+    }
+
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .description .section2 {
+        text-align: left;
+        line-height: 1;
+
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+
+    .goods .m_1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        line-height: 2em;
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(1) {
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+        font-size: 14px;
+
+    }
+
+    .goods .m_1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+        margin: 2% auto;
+        font-size: 13px;
+
+
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 6px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .table a {
+        padding: 6px;
+    }
+
+    .table ol li a {
+        padding: 10px;
+    }
+
+    /*밑에 쩌리들 buy now..*/
+    .goods .m_1 .buy_now {
+        height: 40px;
+
+    }
+
+    .goods .m_1 .buy_now a {
+        font-size: 16px;
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+
+
+    }
+
+    .goods .m_1 .buy_now a:nth-of-type(2) {
+        border-left: 1px solid #000;
+
+    }
+
+}
+
+/*-----------*/
+@media (min-width:480px) and (max-width:768px) {
+    .jjim .jjim_1 hr {
+        display: none;
+    }
+
+    /*--*/
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 14px;
+
+    }
+
+    .goods h2 {
+        margin-top: 5%;
+
+        font-size: 12px;
+    }
+
+    .goods .m_1 {
+        padding: 2%;
+        width: 50%;
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .goods .m_1 .description figcaption {
+        margin-top: 10px;
+    }
+
+
+    .goods .m_1 .description figcaption .section1 {
+        display: none;
+
+    }
+
+
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active,
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active:hover {
+        content: url('../img/icon_heart2.png');
+        width: 100%;
+        transform: scale(2) translateY(40%);
+        margin-left: 130%;
+
+    }
+
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .m_1-1 .description .section2 {
+        text-align: left;
+        line-height: 1;
+        padding: 2% 0;
+        font-size: 14px;
+
+    }
+
+
+    .goods .m_1 .m_1-1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-weight: 600;
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(1) {
+        font-size: 16px;
+
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+        margin: 2% auto;
+        font-size: 16px;
+
+
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 3px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .table a {
+        padding: 4px;
+    }
+
+    .table ol li a {
+        padding: 8px;
+    }
+
+    /*밑에 쩌리들 buy now..*/
+    .goods .m_1 .buy_now {
+        height: 40px;
+
+    }
+
+    .goods .m_1 .buy_now a {
+        font-size: 16px;
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+
+
+    }
+
+    .goods .m_1 .buy_now a:nth-of-type(2) {
+        border-left: 1px solid #000;
+
+    }
+
+}
+
+/*--480-----------------------------*/
+@media (max-width:480px) {
+    .jjim .jjim_1 hr {
+        display: none;
+    }
+
+    /*--*/
+
+
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 12px;
+
+    }
+
+    .goods h2 {
+        margin-top: 10%;
+
+        font-size: 12px;
+    }
+
+    .goods .m_1 {
+        padding: 2%;
+        width: 50%;
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+        height: 160px;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .goods .m_1 .description figcaption {
+        margin-top: 20px;
+    }
+
+
+    .goods .m_1 .description figcaption .section1 {
+        display: none;
+
+    }
+
+
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active,
+    .goods .m_1 .m_1-1 .description figcaption .section1 .button img.active:hover {
+        content: url('../img/icon_heart2.png');
+        width: 100%;
+        transform: scale(2) translateY(50%);
+        margin-left: 130%;
+
+    }
+
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .m_1-1 .description .section2 {
+        text-align: left;
+        line-height: 1;
+        padding: 2% 0;
+    }
+
+
+    .goods .m_1 .m_1-1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(1) {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+
+    }
+
+    .goods .m_1 .m_1-1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+        margin: 2% auto;
+        font-size: 15px;
+
+
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 3px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .table a {
+        padding: 2px;
+    }
+
+    .table ol li a {
+        padding: 6px;
+    }
+
+    /*밑에 쩌리들 buy now..*/
+    .goods .m_1 .buy_now {
+        height: 40px;
+
+    }
+
+    .goods .m_1 .buy_now a {
+        font-size: 13px;
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+
+
+    }
+
+    .goods .m_1 .buy_now a:nth-of-type(2) {
+        border-left: 1px solid #000;
+
+    }
+
+}

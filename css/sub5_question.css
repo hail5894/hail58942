@@ -1,0 +1,258 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------상품event--------------*/
+.review {
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+    
+   
+}
+
+.review .review_1 { 
+    position: relative;
+       }
+
+.review .review_1 hr {
+    width: 60%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+     
+}
+
+.review .review_1 a {
+    text-decoration: none;
+}
+
+.review .review_1 a h2 {
+    margin-top: 3%;
+     font-family: 'Nanum Myeongjo', serif;
+}
+
+
+
+.review .review_1 a ::after {
+     content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+}
+
+
+.review .review_1 p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+
+
+.review .review_bu{
+    position: absolute;
+    right: 20%;
+    bottom: -100%;}
+.review .review_bu button{
+     background: #fff;
+     border: 1px solid #e7e7e7;
+     font-size: 12px;
+   
+   
+}
+.review .review_bu button a{
+     text-decoration: none;
+    
+}
+
+
+/*---------상세글------------*/
+.review-1{ 
+    width: 60%;
+    margin: 6% auto;
+    border-collapse: collapse;
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    color: #3b3b3c;
+    
+   
+}
+.review-1 caption,
+.category{
+    display: none;
+}
+
+
+
+
+.re_title{}
+.re_title tr{}
+.re_title tr th{
+   padding: 8px 0 9px;
+    font-weight: normal;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.re_list{
+    font-size: 12px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.re_list tr{
+ 
+}
+.re_list tr td{
+    padding: 5px 2px;
+    height: 36px;
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.re_list .item{
+    width: 60px;
+    margin: 2px 7px;
+    }
+.re_list .item a{}
+.re_list .item a img{
+    width: 100%;
+    height: 40px;
+}
+
+.re_list .title{
+    text-align: left;
+    padding-left: 30px;
+    width: 70%;
+   
+}
+.re_list .title a{text-decoration: none;
+}
+.re_list .title span{}
+
+.re_list .star{
+    
+     padding:0;
+     margin: 0;
+    width: 10%;}
+.re_list .star img{
+ 
+}
+
+
+
+
+/*--------------table----------------*/
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+
+}
+
+.table a {
+    
+    padding: 10px;
+    border-collapse:collapse;
+    border: 1px solid #e7e7e7;
+}
+
+.table a img {
+    width: 8px;
+    height: 8px;
+ 
+
+}
+
+.table ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+.table ol li {
+    display: inline-block;
+}
+
+.table ol li a {
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+    
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: 14px;
+    
+}
+
+
+/*------------form-----------------------*/
+.form{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-size: 12px;
+}
+.form fieldset{}
+
+.form fieldset legend{
+    display: none;
+}
+.form fieldset p{
+
+}
+.form fieldset p::before{
+    content: '검색어';
+    display: inline;
+    clear: both;
+    font-weight: bold;
+    color: #8d8e8e;
+    font-size: 10px;
+}
+.form fieldset p select{
+    margin: 0 5px;
+    padding: 2px 2px;
+    border: 1px solid #8d8e8e;
+}
+.form fieldset p select option{
+
+}
+.form fieldset p input{
+    width: 170px;
+    margin: 0 4px;
+    border: 1px solid #8d8e8e;
+}
+.form fieldset p a{
+    padding: 6px;
+    
+    border: 1px solid #8d8e8e;
+    border-radius: 20%;
+    background: #8d8e8e;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+

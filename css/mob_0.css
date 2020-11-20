@@ -1,0 +1,1301 @@
+@import url(common.css);
+
+/*------------------모바일-------------------------*/
+@media (max-width: 1251px) and (min-width: 991px){
+    .main .slide .s_v1 .s_bn section{
+        top: 24%;
+    }
+    .main .slide .s_v1 .s_bn section h2{
+       font-size: 24px;
+    }
+    .main .slide .s_v1 .s_bn section p{
+        font-size: 16px;
+    }
+    .main .slide .s_v1 .s_bn section p a{
+      margin-top: 30px;
+    }
+    
+    .goods .m_1 .description a p{
+        height: 180px;
+        width: 100%;
+    }
+    
+    .goods .m_1 .description figcaption .section1{
+        top: 150px;
+    }
+    .info{
+        width: 80%;
+    }
+    
+    .down{
+        width: 90%;
+    }
+    .down .review{
+    }
+    
+/*end*/
+}
+@media (min-width:768px) and (max-width:991px) {
+    .main {
+        /*height: 50vw;*/
+        height: 40vw;
+    }
+
+    .main .slide {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /*  margin-right: 50px;*/
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    .main .slide .s_v1 .s_bn {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+
+
+    .main .slide .s_v1 .s_bn > p {
+        position: relative;
+        margin: 0;
+        font-size: 0;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn > p img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn section {
+        position: absolute;
+        left: 10%;
+        top: 24%;
+        width: 50%;
+
+        color: #ebf8f0;
+        white-space: pre-line;
+
+
+    }
+
+    .main .slide .s_v1 .s_bn section h2 {
+        font-size: 24px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+
+    }
+
+    .main .slide .s_v1 .s_bn section p {
+        font-size: 14px;
+        width: 100%;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+        transform: translateY(-16%);
+    }
+
+    .main .slide .s_v1 .s_bn section p a {
+        color: #ebf8f0;
+        text-decoration: none;
+        border: 1px solid #ebf8f0;
+        display: inline-block;
+
+        text-align: center;
+        padding: 10px 20px; 
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+   .goods .m_1 .description .section2 p:nth-of-type(1) {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2em;
+    }
+    /*메인의 아이콘(화살표,동그라미)*/
+    .main .icon {
+        width: 100%;
+        cursor: pointer;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+    .main .icon p:nth-of-type(1) {
+        float: left;
+    }
+
+    .main .icon p:nth-of-type(2) {
+        float: right;
+
+    }
+
+    .main .icon p img {
+        width: 9px;
+        opacity: .8;
+    }
+
+    .main .circle {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .main .circle span {
+        margin: 0 4px;
+        opacity: .4;
+    }
+
+    .main .circle span img {
+        width: 8px;
+        height: 8px;
+
+
+    }
+
+    /*--*/
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 12px;
+
+    }
+
+    .goods h2 {
+        margin-top: 10%;
+        font-size: 20px;
+    }
+
+    .goods .m_1 {
+        padding: 0 4%;
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+        height: 230px;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+    .goods .m_1 .description figcaption .section1 {
+        position: absolute;
+        left: 0%;
+        top: 56%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background: rgba(255, 255, 255, 0.3);
+        opacity: 0;
+        transition: .8s;
+    }
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .description .section2 {
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+
+    .goods .m_1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(1) {
+        font-size: 14px;
+        font-weight: bold;
+  
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+        font-size: 13px;
+
+    }
+
+    .goods .m_1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+        margin: 4% auto;
+        font-size: 15px;
+
+
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 3px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .free {
+        width: 100%;
+
+
+        background: url('../img/ba_3.jpg') no-repeat;
+        opacity: .7;
+        margin: 2% auto;
+        margin-top: 6%;
+        text-align: center;
+
+
+    }
+
+    .free h2 {
+        padding-top: 30px;
+        font-size: 22px;
+        color: #000;
+        font-family: 'Source Serif Pro', serif;
+        white-space: pre-line;
+    }
+
+    .free p {
+        font-size: 16px;
+        color: #000;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+
+    .free p:nth-of-type(2) {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+
+
+
+    }
+
+    .free p a {
+        border: 1px solid #b5b5b5;
+        background: #fff;
+        padding: 3px;
+        text-decoration: none;
+
+
+    }
+
+
+
+    /*------review 전체----------------*/
+    .down {
+        width: 70%;
+
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    /*review*/
+    .down .review {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 15%;
+
+
+    }
+
+    .down .review .review_bu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6px;
+        position: relative;
+
+    }
+
+    .down .review ul {
+        transform: translateX(20%);
+    }
+
+    .down .review ul li {
+        list-style: disc;
+        line-height: 31px;
+        font-size: 11px;
+
+
+
+    }
+
+    .down .review ul li a span {}
+
+    /*------review 전체----------------*/
+    .down {
+        width: 70%;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    /*review*/
+    .down .review {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+
+    .down .review .review_bu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6px;
+        position: relative;
+    }
+
+
+    .down .review ul li {
+        list-style: disc;
+        line-height: 31px;
+        font-size: 11px;
+    }
+
+    .down .review ul li a span {}
+
+    /*--------info-----*/
+    .info {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .info .call {
+        width: 50%;
+        padding: 25px;
+        padding-top: 40px;
+        text-align: center;
+        border-right: 1px solid #dbdbdb;
+
+    }
+
+    .info .call h2 {
+        font-size: 16px;
+    }
+
+    .info .call p {
+        font-size: 12px;
+    }
+
+    .info .call p img {
+        width: 50px;
+    }
+
+
+    .info .bus {
+        width: 50%;
+        padding: 25px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .info .bus p {
+        font-size: 12px;
+    }
+
+    .info .bus p img {
+        width: 65px;
+        height: 50px;
+    }
+
+    .info .bus h2 {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+    .info .bus p a {}
+
+    /*-----------event----*/
+
+
+    .down .event {
+        width: 100%;
+        margin-top: 15%;
+        margin-left: 0%;
+    }
+
+    .down .event a {
+        height: 130px;
+        position: absolute;
+
+    }
+
+    .down .event img {
+        width: 100%;
+        height: 100%;
+    }
+
+/*
+    .down event a:nth-of-type(1) {
+        left: 0;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(2) {
+        left: 100%;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(3) {
+        left: 200%;
+        margin-right: 50px;
+    }
+*/
+
+/*end*/
+}
+
+
+/*-----------*/
+@media (min-width:480px) and (max-width:768px) {
+    .main {
+        /* height: 50vw;*/
+        height: 40vw;
+    }
+
+    .main .slide {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /*  margin-right: 50px;*/
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    .main .slide .s_v1 .s_bn {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+
+
+    .main .slide .s_v1 .s_bn > p {
+        position: relative;
+        margin: 0;
+        font-size: 0;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn > p img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn section {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 50%;
+
+        color: #ebf8f0;
+        white-space: pre-line;
+
+
+    }
+
+    .main .slide .s_v1 .s_bn section h2 {
+        font-size: 16px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+
+    }
+
+    .main .slide .s_v1 .s_bn section p {
+        font-size: 12px;
+        width: 100%;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+        transform: translateY(-30%);
+
+
+    }
+
+    .main .slide .s_v1 .s_bn section p a {
+        color: #ebf8f0;
+        text-decoration: none;
+        border: 1px solid #ebf8f0;
+        display: inline-block;
+
+        text-align: center;
+        padding: 3px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+
+    /*메인의 아이콘(화살표,동그라미)*/
+    .main .icon {
+        width: 100%;
+        cursor: pointer;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+    .main .icon p:nth-of-type(1) {
+        float: left;
+    }
+
+    .main .icon p:nth-of-type(2) {
+        float: right;
+
+    }
+
+    .main .icon p img {
+        width: 8px;
+        opacity: .8;
+    }
+
+    .main .circle {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .main .circle span {
+        margin: 0 3px;
+        opacity: .4;
+    }
+
+    .main .circle span img {
+        width: 7px;
+        height: 7px;
+
+
+    }
+
+    /*--*/
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 12px;
+
+    }
+
+    .goods h2 {
+        margin-top: 10%;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .goods .m_1 {
+        padding: 0 2%;
+        width: 50%;
+
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .goods .m_1 .description figcaption {}
+
+
+    .goods .m_1 .description figcaption .section1 {
+        display: none;
+
+    }
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .description .section2 {
+        text-align: left;
+        padding: 5% 0;
+        line-height: 1;
+    }
+
+
+    .goods .m_1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(1) {
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+        line-height: 2em;
+
+    }
+
+    .goods .m_1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+        margin: 5% auto;
+        font-size: 15px;
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 3px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .free {
+        width: 100%;
+
+
+        background: url('../img/ba_3.jpg') no-repeat;
+        opacity: .7;
+        margin: 2% auto;
+        margin-top: 6%;
+        text-align: center;
+
+
+    }
+
+    .free h2 {
+        padding-top: 30px;
+        font-size: 22px;
+        color: #000;
+        font-family: 'Source Serif Pro', serif;
+        white-space: pre-line;
+    }
+
+    .free p {
+        font-size: 16px;
+        color: #000;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+
+    .free p:nth-of-type(2) {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+
+
+
+    }
+
+    .free p a {
+        border: 1px solid #b5b5b5;
+        background: #fff;
+        padding: 3px;
+        text-decoration: none;
+
+
+    }
+
+
+
+    /*------review 전체----------------*/
+    .down {
+        width: 70%;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    /*review*/
+    .down .review {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15%;
+
+
+    }
+
+    .down .review .review_bu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6px;
+        position: relative;
+    }
+
+
+    .down .review ul li {
+        list-style: disc;
+        line-height: 31px;
+        font-size: 11px;
+
+
+
+
+    }
+
+    .down .review ul li a span {}
+
+    /*--------info-----*/
+    .info {
+
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .info .call {
+        width: 50%;
+        padding: 25px;
+        padding-top: 40px;
+        text-align: center;
+        border-right: 1px solid #dbdbdb;
+
+    }
+
+    .info .call h2 {
+        font-size: 16px;
+    }
+
+    .info .call p {
+        font-size: 12px;
+    }
+
+    .info .call p img {
+        width: 50px;
+    }
+
+
+    .info .bus {
+        width: 50%;
+        padding: 25px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .info .bus p {
+        font-size: 12px;
+    }
+
+    .info .bus p img {
+        width: 65px;
+        height: 50px;
+    }
+
+    .info .bus h2 {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+    .info .bus p a {}
+
+    /*-----------event----*/
+
+
+    .down .event {
+        width: 100%;
+        margin-top: 15%;
+        height: 120px;
+        margin-left: 0;
+    }
+
+    .down .event a {
+
+        position: absolute;
+    }
+
+    .down .event img {
+        width: 100%;
+    }
+
+  /*  .down event a:nth-of-type(1) {
+        left: 0;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(2) {
+        left: 100%;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(3) {
+        left: 200%;
+        margin-right: 50px;
+    }*/
+
+/*end*/
+}
+
+/*--480-----------------------------*/
+@media (max-width:480px) {
+    .main {
+        height: 40vw;
+
+    }
+
+    .main .slide {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /*  margin-right: 50px;*/
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    .main .slide .s_v1 .s_bn {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+
+
+    .main .slide .s_v1 .s_bn > p {
+        position: relative;
+        margin: 0;
+        font-size: 0;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn > p img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main .slide .s_v1 .s_bn section {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 50%;
+        height: 80%;
+        color: #ebf8f0;
+        white-space: pre-line;
+
+
+    }
+
+    .main .slide .s_v1 .s_bn section h2 {
+        font-size: 12px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+    }
+
+    .main .slide .s_v1 .s_bn section p {
+        font-size: 8px;
+        width: 100%;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+        transform: translateY(-40%);
+
+    }
+
+    .main .slide .s_v1 .s_bn section p a {
+        color: #ebf8f0;
+        text-decoration: none;
+        border: 1px solid #ebf8f0;
+        display: inline-block;
+
+        text-align: center;
+        padding: 3px;
+        margin-top: 6px;
+        font-size: 8px;
+    }
+
+
+    /*메인의 아이콘(화살표,동그라미)*/
+    .main .icon {
+        width: 100%;
+        cursor: pointer;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+    .main .icon p:nth-of-type(1) {
+        float: left;
+    }
+
+    .main .icon p:nth-of-type(2) {
+        float: right;
+
+    }
+
+    .main .icon p img {
+        width: 7px;
+        opacity: .8;
+    }
+
+    .main .circle {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .main .circle span {
+        margin: 0 1px;
+        opacity: .4;
+    }
+
+    .main .circle span img {
+        width: 4px;
+        height: 4px;
+
+
+    }
+
+    /*--*/
+    .goods {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-size: 12px;
+
+    }
+
+    .goods h2 {
+        margin-top: 10%;
+        font-size: 20px;
+    }
+
+    .goods .m_1 {
+        padding: 0 2%;
+        width: 50%;
+
+    }
+
+
+
+    .goods .m_1 .description {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .goods .m_1 .description a {
+
+        display: block;
+    }
+
+    .goods .m_1 .description a p {
+        width: 100%;
+        height: 160px;
+    }
+
+
+
+    .goods .m_1 .description a p img {
+        width: 100%;
+        height: 100%;
+
+        margin: 0 auto;
+    }
+
+
+
+
+    .goods .m_1 .description figcaption {}
+
+
+    .goods .m_1 .description figcaption .section1 {
+        display: none;
+
+    }
+
+
+
+
+    /*----------------*/
+
+    /*상품 글씨들*/
+    .goods .m_1 .description .section2 {
+        text-align: left;
+        padding: 5% 0;
+
+        line-height: 1;
+    }
+
+
+    .goods .m_1 .description .section2 p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .goods .m_1 .description .section2 p:nth-of-type(1) {
+        font-size: 13px;
+        font-weight: bold;
+       
+    }
+    
+    
+
+    .goods .m_1 .description .section2 p:nth-of-type(2) {
+        color: #888888;
+        line-height: 2em;
+
+    }
+
+    .goods .m_1 .description .section2 strong {
+        color: #49904f;
+        display: block;
+         margin: 5% auto;
+    }
+
+
+    /*EVENT ->m_1이랑 같은위치*/
+    .event .description span {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        border: 3px solid #fa1e1e;
+        background: red;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .free {
+        width: 100%;
+
+
+        background: url('../img/ba_3.jpg') no-repeat;
+        opacity: .7;
+        margin: 2% auto;
+        margin-top: 6%;
+        text-align: center;
+
+
+    }
+
+    .free h2 {
+        padding-top: 30px;
+        font-size: 22px;
+        color: #000;
+        font-family: 'Source Serif Pro', serif;
+        white-space: pre-line;
+    }
+
+    .free p {
+        font-size: 16px;
+        color: #000;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+
+    .free p:nth-of-type(2) {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+
+
+
+    }
+
+    .free p a {
+        border: 1px solid #b5b5b5;
+        background: #fff;
+        padding: 3px;
+        text-decoration: none;
+
+
+    }
+
+
+
+    /*------review 전체----------------*/
+    .down {
+        width: 70%;
+        flex-direction: column;
+
+    }
+
+    /*review*/
+    .down .review .review_bu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6px;
+        position: relative;
+
+    }
+
+
+    .down .review ul li {
+        list-style: disc;
+        line-height: 31px;
+        font-size: 11px;
+        text-align: left;
+        white-space: nowrap;
+
+    }
+
+    .down .review ul li a span {}
+
+    /*--------info-----*/
+    .info {
+
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .info .call {
+        width: 50%;
+        padding: 25px;
+        padding-top: 40px;
+        text-align: center;
+        border-right: 1px solid #dbdbdb;
+
+    }
+
+    .info .call h2 {
+        font-size: 14px;
+    }
+
+    .info .call p {
+        font-size: 10px;
+    }
+
+    .info .call p img {
+        width: 50px;
+    }
+
+
+    .info .bus {
+        width: 50%;
+        padding: 25px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .info .bus p {
+        font-size: 10px;
+    }
+
+    .info .bus p img {
+        width: 65px;
+        height: 50px;
+    }
+
+    .info .bus h2 {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+    .info .bus p a {}
+
+    /*-----------event----*/
+
+
+
+    .down .event {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        height: 100px;
+        margin-left: 0%;
+
+    }
+
+
+
+    .down .event a {
+
+        position: absolute;
+    }
+
+    .down .event img {
+        width: 100%;
+    }
+
+  /*  .down event a:nth-of-type(1) {
+        left: 0;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(2) {
+        left: 100%;
+        margin-right: 50px;
+    }
+
+    .down .event a:nth-of-type(3) {
+        left: 200%;
+        margin-right: 50px;
+    }
+*/
+
+
+/*end*/
+}

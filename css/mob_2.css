@@ -1,0 +1,770 @@
+@import url(common.css);
+
+/*------------------모바일-------------------------*/
+@media (max-width: 1251px) and (min-width: 991px) {
+      .review-1 {
+        width: 80%;
+        margin: 6% auto;
+        border-collapse: collapse;
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        color: #3b3b3c;
+
+
+
+    }
+
+    .review-1 caption,
+    .category {
+        display: none;
+    }
+
+
+
+
+    .re_title {}
+
+    .re_title tr th {
+        padding: 8px 0 9px;
+        font-weight: normal;
+        color: #a6a6a6;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .re_list {
+        font-size: 12px;
+        font-family: 'Nanum Gothic Coding', monospace;
+    }
+
+    .re_list tr {}
+
+
+
+    .re_list tr td {
+        padding: 5px 3px;
+        height: 30px;
+        border-top: 1px solid #e7e7e7;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .re_list .item {
+        width: 60px;
+
+    }
+
+    .re_list .title {
+        text-align: left;
+        padding-left: 3%;
+        font-weight: 600;
+        width: 60%;
+
+    }
+
+    .re_list .title span {}
+    
+    .review .review_bu {
+        position: absolute;
+        right: 10%;
+        bottom: -30%;
+    }
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 12%;
+
+
+    }
+
+
+
+    .review .review_1 hr {
+        display: none;
+    }
+
+
+
+
+    .review .review_bu {
+        position: absolute;
+        right: 10%;
+        bottom: -50%;
+    }
+
+    .review .review_bu button {
+        background: #fff;
+        border: 1px solid eee;
+        font-size: 8px;
+
+
+    }
+
+
+    /*---------상세글------------*/
+    .review-1 {
+        width: 90%;
+        margin: 6% auto;
+        border-collapse: collapse;
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        color: #3b3b3c;
+
+
+
+    }
+
+    .review-1 caption,
+    .category {
+        display: none;
+    }
+
+
+
+
+    .re_title {}
+
+    .re_title tr th {
+        padding: 8px 0 9px;
+        font-weight: normal;
+        color: #a6a6a6;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    .re_list {
+        font-size: 12px;
+        font-family: 'Nanum Gothic Coding', monospace;
+    }
+
+    .re_list tr {}
+
+
+
+    .re_list tr td {
+        padding: 5px 3px;
+        height: 30px;
+        border-top: 1px solid #e7e7e7;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .re_list .item {
+        width: 60px;
+
+    }
+
+    .re_list .title {
+        text-align: left;
+        padding-left: 3%;
+        font-weight: 600;
+        width: 60%;
+
+    }
+
+    .re_list .title span {}
+
+
+
+
+
+    /*--------------table----------------*/
+
+    .table {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% auto;
+
+
+    }
+
+    .table a {
+
+        padding: 6px;
+        border-collapse: collapse;
+
+    }
+
+    .table a img {
+        width: 6px;
+        height: 5px;
+
+
+    }
+
+    .table ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .table ol li {
+        display: inline-block;
+    }
+
+    .table ol li a {
+        font-size: 12px;
+        width: 10px;
+        height: 10px;
+
+        text-decoration: none;
+        box-sizing: content-box;
+        padding: 10px;
+
+    }
+
+
+    /*------------form-----------------------*/
+    .form {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        font-size: 12px;
+    }
+
+    .form fieldset {}
+
+    .form fieldset legend {
+        display: none;
+    }
+
+    .form fieldset p {}
+
+    .form fieldset p::before {
+        content: '검색어';
+        display: inline;
+        clear: both;
+        font-weight: bold;
+        color: #8d8e8e;
+        font-size: 8px;
+    }
+
+    .form fieldset p select {
+        margin: 0 5px;
+        padding: 1px 1px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p select option {}
+
+    .form fieldset p input {
+        width: 150px;
+        margin: 0 4px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p a {
+        padding: 4px;
+
+        border: 1px solid #8d8e8e;
+        border-radius: 20%;
+        background: #8d8e8e;
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
+/*-----------*/
+@media (min-width:480px) and (max-width:768px) {
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 12%;
+
+
+    }
+
+
+
+    .review .review_1 hr {
+        display: none;
+    }
+
+
+
+
+    .review .review_bu {
+        position: absolute;
+        right: 5%;
+        bottom: -40%;
+    }
+
+    .review .review_bu button {
+        background: #fff;
+        border: 1px solid eee;
+        font-size: 8px;
+
+
+    }
+
+
+    /*---------상세글------------*/
+    .review-1 {
+        width: 90%;
+        margin: 6% auto;
+        border-collapse: collapse;
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        color: #3b3b3c;
+
+
+
+    }
+
+    .review-1 caption,
+    .category {
+        display: none;
+    }
+
+
+
+
+    .re_title {display: none;}
+
+    .re_title tr th {
+        padding: 8px 0 9px;
+        font-weight: normal;
+        color: #a6a6a6;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .re_title tr th:nth-of-type(7) {
+        display: none;
+    }
+
+    .re_list {
+        font-size: 10px;
+        font-family: 'Nanum Gothic Coding', monospace;
+    }
+
+    .re_list tr {}
+
+
+    .re_list tr:nth-of-type(10),
+    .re_list tr:nth-of-type(11) {
+        display: none;
+    }
+
+    .re_list tr td {
+        padding: 5px 3px;
+        height: 30px;
+        border-top: 1px solid #e7e7e7;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .re_list .item {
+        width: 10%;
+
+    }
+
+
+
+    .re_list .title span {}
+
+    .re_list .star {
+        display: none;
+    }
+
+
+    .re_list .item .item_1 {
+        width: 30px;
+    }
+
+    .re_list .title {
+        text-align: left;
+        padding: 0;
+        width: 60%;
+        padding-left: 10px;
+        font-weight: 600;
+    }
+
+    .re_list .title a {
+        text-overflow: ellipsis;
+  
+    }
+
+    .re_list .title span {}
+
+    .re_list .star {
+        display: none;
+    }
+
+
+    .re_list tr td {
+        white-space: normal;
+        text-overflow: ellipsis;
+      
+    }
+    .re_list tr td:nth-of-type(4){
+        padding: 0;
+    }
+    .re_list tr td:last-child{
+        display: none;
+        padding: 0;
+    }
+
+
+    /*--------------table----------------*/
+
+    .table {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% auto;
+
+
+    }
+
+    .table a {
+
+        padding: 4px;
+        border-collapse: collapse;
+
+    }
+
+    .table a img {
+        width: 6px;
+        height: 5px;
+
+
+    }
+
+    .table ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .table ol li {
+        display: inline-block;
+    }
+
+    .table ol li a {
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+
+        text-decoration: none;
+        box-sizing: content-box;
+        padding: 10px;
+
+    }
+
+
+    /*------------form-----------------------*/
+    .form {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        font-size: 12px;
+    }
+
+    .form fieldset {}
+
+    .form fieldset legend {
+        display: none;
+    }
+
+    .form fieldset p {}
+
+    .form fieldset p::before {
+        content: '검색어';
+        display: inline;
+        clear: both;
+        font-weight: bold;
+        color: #8d8e8e;
+        font-size: 8px;
+    }
+
+    .form fieldset p select {
+        margin: 0 5px;
+        padding: 1px 1px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p select option {}
+
+    .form fieldset p input {
+        width: 130px;
+        margin: 0 4px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p a {
+        padding: 2px;
+
+        border: 1px solid #8d8e8e;
+        border-radius: 20%;
+        background: #8d8e8e;
+        color: white;
+        text-decoration: none;
+
+    }
+
+}
+
+/*--480-----------------------------*/
+@media (max-width:480px) {
+
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 12%;
+
+
+    }
+
+
+
+    .review .review_1 hr {
+        display: none;
+    }
+
+
+
+
+    .review .review_bu {
+        position: absolute;
+        right: 5%;
+        bottom: -40%;
+    }
+
+    .review .review_bu button {
+        background: #fff;
+        border: 1px solid eee;
+        font-size: 8px;
+
+
+    }
+
+
+    /*---------상세글------------*/
+    .review-1 {
+        width: 100%;
+        margin: 6% auto;
+        border-collapse: collapse;
+        border-top: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        color: #3b3b3c;
+
+
+
+    }
+
+    .review-1 caption,
+    .category {
+        display: none;
+    }
+
+
+
+  .re_title{
+       display: none;
+    }
+   
+
+    .re_title tr th {
+        padding: 8px 0 9px;
+        font-weight: normal;
+        color: #a6a6a6;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .re_title tr th:nth-of-type(7) {
+        display: none;
+    }
+
+    .re_list {
+        font-size: 10px;
+        font-family: 'Nanum Gothic Coding', monospace;
+    }
+
+    .re_list tr {}
+
+    .re_list tr:nth-of-type(8),
+    .re_list tr:nth-of-type(9),
+    .re_list tr:nth-of-type(10),
+    .re_list tr:nth-of-type(11) {
+        display: none;
+    }
+
+    .re_list tr td {
+        padding: 5px 3px;
+        height: 30px;
+        border-top: 1px solid #e7e7e7;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+
+    .re_list .item {
+        width: 30px;
+    }
+
+    /*이것은 sub5꺼임*/
+    .re_list .item .item_1 {
+        width: 30px;
+    }
+
+    .re_list .title {
+        text-align: left;
+        padding: 0;
+      
+        padding-left: 10px;
+        font-weight: 600;
+    }
+
+    .re_list .title a {
+        text-overflow: ellipsis;
+  
+    }
+
+    .re_list .title span {}
+
+    .re_list .star {
+        display: none;
+    }
+
+
+    .re_list tr td {
+        white-space: normal;
+        text-overflow: ellipsis;
+      
+    }
+    .re_list tr td:nth-of-type(4){
+        padding: 0;
+    }
+    .re_list tr td:last-child{
+        display: none;
+        padding: 0;
+    }
+ 
+    /*--------------table----------------*/
+
+    .table {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3% auto;
+
+
+    }
+
+    .table a {
+
+        padding: 2px;
+        border-collapse: collapse;
+        border: none;
+    }
+
+    .table a img {
+        width: 6px;
+        height: 5px;
+
+
+    }
+
+    .table ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .table ol li {
+        display: inline-block;
+    }
+
+    .table ol li a {
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+
+        text-decoration: none;
+        box-sizing: content-box;
+        padding: 8px;
+
+    }
+
+
+    /*------------form-----------------------*/
+    .form {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        font-size: 10px;
+    }
+
+    .form fieldset {}
+
+    .form fieldset legend {
+        display: none;
+    }
+
+    .form fieldset p {}
+
+    .form fieldset p::before {
+        content: '검색어';
+        display: inline;
+        clear: both;
+        font-weight: bold;
+        color: #8d8e8e;
+        font-size: 6px;
+    }
+
+    .form fieldset p select {
+        margin: 0 5px;
+        padding: 1px 1px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p select option {}
+
+    .form fieldset p input {
+        width: 100px;
+        margin: 0 4px;
+        border: 1px solid #8d8e8e;
+    }
+
+    .form fieldset p a {
+        padding: 2px;
+
+        border: 1px solid #8d8e8e;
+        border-radius: 20%;
+        background: #8d8e8e;
+        color: white;
+        text-decoration: none;
+
+    }
+
+
+}

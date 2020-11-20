@@ -1,0 +1,419 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------상품shop--------------*/
+.shop {
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.shop .shop_1 {}
+
+.shop .shop_1 hr {
+    width: 70%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+}
+
+.shop .shop_1 a {
+    text-decoration: none;
+
+}
+
+/*
+.shop .shop_1 a ::after{
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+}
+*/
+
+.shop .shop_1 a h2 {
+    margin-top: 3%;
+    font-family: 'Source Serif Pro', serif;
+
+
+}
+
+.shop .shop_1 a h2.active {
+    display: block;
+    border-bottom: 2px solid #49904f;
+    width: 100px;
+    margin: 2px auto;
+}
+
+
+
+
+.shop .shop_2 {
+ margin-bottom: 2%;
+
+}
+
+.shop .shop_2 p {
+    display: inline-block;
+    padding: 20px 14px;
+    font-size: 14px;
+}
+
+.shop .shop_2 p a {
+    text-decoration: none;
+
+}
+
+.shop .shop_2 p a.active {
+    display: block;
+    border-bottom: 1px solid #49904f;
+    width: 60px;
+    margin: 2px auto;
+    transition: .2s;
+
+}
+
+
+/*-------상품--------------*/
+.wrap {
+    display: flex;
+    /*   justify-content: space-around;*/
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.goods {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 12px;
+
+}
+
+.goods h2 {
+    display: none;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.goods .m_1 {
+    padding-right: 2%;
+    margin: 1% 0;
+}
+
+
+
+.goods .m_1 .description {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.goods .m_1 .description a {
+    height: 100%;
+    display: block;
+}
+
+.goods .m_1 .description a p {
+    height: 220px;
+    width: 100%;
+
+}
+
+
+
+.goods .m_1 .description a p img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+.goods .m_1 .description figcaption {
+    margin-top: 10px;
+}
+
+
+.goods .m_1 .description figcaption .section1 {
+    position: absolute;
+    left: 0%;
+    bottom: 28%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+
+
+}
+
+.goods .m_1 .description:hover figcaption .section1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+/*------review----*/
+.goods .m_1 .description figcaption .section1 .review {
+    font-weight: bold;
+    height: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+
+.goods .m_1 .description figcaption .section1 .review a {
+    border: none;
+    background: none;
+    text-decoration: none;
+
+}
+
+/*---------button------*/
+.goods .m_1 .description figcaption .section1 .button {
+    width: 100px;
+    text-align: center;
+
+}
+
+
+.goods .m_1 .description figcaption .section1 .button button {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 26%;
+    margin-left: 4px;
+
+}
+
+.goods .m_1 .description .section1 .button button img {
+    width: 100%;
+
+
+}
+
+.goods .m_1 .description .section1 .button button:hover img {
+    transform: scale(1.4);
+    transition: .7s;
+
+}
+
+
+/*하트 빨간색 변하게 하기*/
+
+.goods .m_1 .description figcaption .section1 .button .heart {
+
+    width: 100%;
+
+
+}
+
+.goods .m_1 .description figcaption .section1 .button .heart:hover {
+    content: url('../img/icon_heart2.png');
+    width: 100%;
+    transform: scale(2.4);
+
+
+
+}
+
+/*----------------*/
+
+/*상품 글씨들*/
+.goods .m_1 .description .section2 {
+    text-align: left;
+
+}
+
+
+.goods .m_1 .description .section2 p {
+    white-space: nowrap;
+    line-height: 1.6em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 600;
+}
+.goods .m_1 .description .section2 p:nth-of-type(1){
+    font-size: 14px;
+}
+.goods .m_1 .description .section2 p:nth-of-type(2) {
+    color: #888888;
+    font-weight: normal;
+}
+
+.goods .m_1 .description .section2 strong {
+    color: #49904f;
+    display: block;
+    margin: 2% auto;
+    font-size: 14px;
+
+
+}
+
+
+/*EVENT ->m_1이랑 같은위치*/
+
+.event .description span {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    border: 2px solid #fa1e1e;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+/*--------------table----------------*/
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+
+}
+
+.table a {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+
+    border-collapse: collapse;
+
+
+}
+
+.table a img {
+    width: 8px;
+    height: 8px;
+
+
+}
+
+.table ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.table ol li {
+    display: block;
+}
+
+.table ol li a {
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: 14px
+}
+
+/*--fixed-----------*/
+.fixed {
+    position: fixed;
+    left: 40%;
+    top: 25%;
+    height: 450px;
+    border: 1px solid #edeae5;
+    background: rgba(237, 234, 229, 0.7);
+    display: none;
+}
+
+.fixed .fixed_1 {
+    position: relative;
+}
+
+.fixed .fixed_1 a {}
+
+.fixed .fixed_1 a p {
+    width: 90%;
+    transform: translateX(3%);
+    margin: 6% 2%;
+
+
+
+
+}
+
+.fixed .fixed_1 a p img {
+    width: 100%;
+    height: 200px;
+
+}
+
+
+.fixed .fixed_1 span {}
+
+
+.fixed .fixed_1 span {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    border: 2px solid #fa1e1e;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.fixed .fixed_1 .fixed_2 {}
+
+.fixed .fixed_1 .fixed_2 p {
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fixed .fixed_1 .fixed_2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fixed .fixed_1 .fixed_2 strong {
+    text-align: center;
+    color: #49904f;
+    padding-right: 50px;
+    font-size: 18px;
+
+
+}
+
+.fixed .fixed_1 .fixed_2 p a {
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 8px 10px;
+}

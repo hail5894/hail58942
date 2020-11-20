@@ -1,0 +1,347 @@
+@import url(common.css);
+
+
+
+
+
+/*상단메인*/
+main {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*-------상품event--------------*/
+.event {
+    width: 100%;
+
+    margin-top: 12%;
+}
+
+.event .event_1 {
+    text-align: center;
+}
+
+.event .event_1 hr {
+    width: 60%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0
+}
+
+.event .event_1 a {
+    text-decoration: none;
+}
+
+.event .event_1 a h2 {
+    margin-top: 3%;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.event .event_1 a ::after {
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #49904f;
+    margin: 2px auto;
+}
+
+
+.event .event_1 p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/*-------------상품-----------*/
+
+
+/*goods width 70%→60%/ .description height 300px→250px 수정함*/
+.events {
+
+    width: 60%;
+
+    margin: 0 auto;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 12px;
+    margin-top: 100px;
+
+}
+
+
+.events .m_1 {
+
+    margin: 1% 0;
+}
+
+
+
+.events .m_1 .description {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 0 6%;
+
+
+}
+
+.events .m_1 .description a {
+    height: 100%;
+
+    display: block;
+}
+
+.events .m_1 .description a p {
+    height: 120px;
+    width: 100%;
+}
+
+
+
+.events .m_1 .description a p img {
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+    border: 1px solid #eee;
+}
+
+
+
+
+.events .m_1 .description figcaption {
+    margin: 20px auto;
+    color: #131313;
+}
+
+.events .m_1 .description figcaption p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.events .m_1 .description figcaption .section2 strong {
+    color: #505051;
+}
+
+
+
+
+/*--------------table----------------*/
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    margin-top: 600px;
+
+}
+
+.table a {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+
+    border-collapse: collapse;
+
+
+}
+
+.table a img {
+    width: 8px;
+    height: 8px;
+
+
+}
+
+.table ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.table ol li {
+    display: block;
+}
+
+.table ol li a {
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: 12px
+}
+
+
+/*------------form-----------------------*/
+.form {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    font-size: 12px;
+}
+
+.form fieldset {}
+
+.form fieldset legend {
+    display: none;
+}
+
+.form fieldset p {}
+
+.form fieldset p::before {
+    content: '검색어';
+    display: inline;
+    clear: both;
+    font-weight: bold;
+    color: #8d8e8e;
+    font-size: 10px;
+}
+
+.form fieldset p select {
+    margin: 0 5px;
+    padding: 4px 4px;
+    border: 1px solid #8d8e8e;
+}
+
+.form fieldset p select option {}
+
+.form fieldset p input {
+    width: 170px;
+    margin: 0 4px;
+    border: 1px solid #8d8e8e;
+}
+
+.form fieldset p a {
+    padding: 6px;
+
+    border: 1px solid #8d8e8e;
+    border-radius: 20%;
+    background: #8d8e8e;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+/*===*/
+@media (min-width:768px) and (max-width:991px) {
+    .event{margin-top: 18%;}
+    .event .event_1 hr{display: none;}
+    .events {
+        width: 90%;
+        margin: 7% auto;}
+
+    .events .m_1 {
+        width: 50%;}
+    .events .m_1 .description {
+        padding: 0 4%;
+    }
+.events .m_1 .description figcaption {
+        margin: 10px auto; }
+.table{margin-top: 40px;} 
+    
+
+.table a { padding: 6px;}
+
+  .table ol li a {
+     padding: 8px;}
+    .form {
+  margin: 60px auto;
+        font-size: 12px;}
+
+.form fieldset p select {
+    margin: 0 2px;
+    padding: 2px 2px;}
+
+.form fieldset p input {
+    width: 170px;} 
+}
+/*---*/
+@media (min-width:480px) and (max-width:768px) {
+    .event{margin-top: 18%;}
+    .event .event_1 hr{display: none;}
+    .events {
+        width: 90%;
+        margin: 7% auto;}
+
+    .events .m_1 {
+        width: 50%;}
+
+ .events .m_1 .description {
+        padding: 0 6%;
+    }
+
+    .events .m_1 .description figcaption {
+        margin: 10px auto; }
+    .table{margin-top: 60px;} 
+
+    .table a { padding: 2px;}
+
+  .table ol li a {
+     padding: 4px;}
+    .form {
+  margin: 40px auto;
+        font-size: 10px;}
+
+.form fieldset p select {
+    margin: 0 2px;
+    padding: 2px 2px;}
+
+.form fieldset p input {
+    width: 140px;}
+}
+/*---*/
+@media (max-width:480px) {
+    .event{margin-top: 18%;}
+    .event .event_1 hr{display: none;}
+    .events {
+        width: 90%;
+        margin: 7% auto;}
+
+    .events .m_1 {
+        width: 50%;}
+
+    .events .m_1 .description {
+        padding: 0 5%;
+    }
+
+    .events .m_1 .description figcaption {
+        margin: 10px auto; }
+    .table{margin-top: 60px;} 
+
+    .table a { padding: 2px;}
+
+  .table ol li a {
+     padding: 4px;}
+    .form {
+  margin: 40px auto;
+        font-size: 10px;}
+
+.form fieldset p select {
+    margin: 0 2px;
+    padding: 2px 2px;}
+
+.form fieldset p input {
+    width: 140px;}
+    
+}
+
