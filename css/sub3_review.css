@@ -83,7 +83,7 @@ main {
 
 /*---------상세글------------*/
 .review-1{ 
-    width: 60%;
+    width: 65%;
     margin: 6% auto;
     border-collapse: collapse;
     border-top:1px solid #e7e7e7;
@@ -110,7 +110,7 @@ main {
 }
 
 .re_list{
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Nanum Gothic Coding', monospace;
 }
 .re_list tr{

@@ -94,7 +94,7 @@ figure figcaption article {
 
 figure figcaption article h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
    
@@ -102,14 +102,14 @@ figure figcaption article h2 {
 
 figure figcaption article h2 > p {
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 21px;
     width: 100%;
     font-family: 'Nanum Gothic Coding', monospace;
 
 }
 
 figure figcaption article p {
-    font-size: 14px;
+    font-size: 15px;
     color: #505051;
     margin-top: 50px;
     width: 80%;

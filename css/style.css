@@ -103,7 +103,7 @@ main {
 }
 
 .main .slide .s_v1 .s_bn section h2 {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
 }
 
@@ -185,7 +185,7 @@ main {
 
 .goods h2 {
     margin: 1% auto;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .goods .m_1 {
@@ -205,13 +205,14 @@ main {
     height: 100%;
     display: block;
     text-decoration: none;
+  
 }
 
 .goods .m_1 .description a p {
-    height: 200px;
+    height: 240px;
     width: 100%;
 
-
+  font-size: 13px;
 }
 
 
@@ -229,7 +230,7 @@ main {
 .goods .m_1 .description figcaption .section1 {
     position: absolute;
     left: 0%;
-    top: 160px;
+    top: 200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -250,7 +251,8 @@ main {
 .goods .m_1 .description figcaption .section1 .review {
     font-weight: bold;
     margin-bottom: 10px;
-
+    font-size: 13px;
+    
     height: 0;
     border: none;
     background: none;
@@ -334,22 +336,28 @@ main {
 
     text-overflow: ellipsis;
     overflow: hidden;
+    line-height: 1.5em;
+    
+
 }
 
 .goods .m_1 .description .section2 p:nth-of-type(1) {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .goods .m_1 .description .section2 p:nth-of-type(2) {
     color: #888888;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .goods .m_1 .description .section2 strong {
     color: #49904f;
+    font-weight: bold;
     display: block;
-    margin: 7% auto;
-    font-size: 14px;
+    margin: 4% auto;
+    font-size: 15px;
 
 
 }
@@ -364,7 +372,7 @@ main {
     background: red;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -483,10 +491,7 @@ main {
 .down .review ul li {
     list-style: disc;
     line-height: 2em;
-    font-size: 12px;
-
-
-
+    font-size: 14px;
 }
 
 .down .review ul li a {
@@ -517,14 +522,14 @@ main {
 }
 
 .info .call h2 {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 10px;
 
 }
 
 .info .call p {
 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .info .call p img {
@@ -539,7 +544,7 @@ main {
 }
 
 .info .bus p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .info .bus p img {
@@ -548,7 +553,7 @@ main {
 }
 
 .info .bus h2 {
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Nanum Gothic Coding', monospace;
     font-weight: bold;
     padding-top: 16px;

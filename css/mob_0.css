@@ -1,22 +1,34 @@
 @import url(common.css);
 
 /*------------------모바일-------------------------*/
+
+@media (max-width: 1500) and (min-width: 1252px){
+    .goods{
+        width: 75%;
+    }
+}
 @media (max-width: 1251px) and (min-width: 991px){
     .main .slide .s_v1 .s_bn section{
         top: 24%;
     }
     .main .slide .s_v1 .s_bn section h2{
-       font-size: 24px;
+       font-size: 30px;
     }
     .main .slide .s_v1 .s_bn section p{
-        font-size: 16px;
+        font-size: 18px;
+    }
+    
+    .main .slide .s_v1 .s_bn section p a{
+        padding: 10px 18px;
     }
     .main .slide .s_v1 .s_bn section p a{
       margin-top: 30px;
     }
-    
+    .goods{
+        width: 75%;
+    }
     .goods .m_1 .description a p{
-        height: 180px;
+        height: 200px;
         width: 100%;
     }
     
@@ -33,6 +45,16 @@
     .down .review{
     }
     
+    .goods .m_1 .description .section2 p:nth-of-type(1){
+        font-size: 14px;
+    }
+    .goods .m_1 .description .section2 p:nth-of-type(2){
+        font-size: 13px;
+    }
+    .goods .m_1 .description .section2 strong{
+        font-size: 14px;
+    }
+    .down .review ul li,.info .call p,.info .bus p{font-size: 13px;}
 /*end*/
 }
 @media (min-width:768px) and (max-width:991px) {
@@ -76,7 +98,7 @@
     .main .slide .s_v1 .s_bn section {
         position: absolute;
         left: 10%;
-        top: 24%;
+        top: 14%;
         width: 50%;
 
         color: #ebf8f0;
@@ -84,19 +106,19 @@
 
 
     }
-
+    .s_v1 .slick-dots{left:45% !important;}
     .main .slide .s_v1 .s_bn section h2 {
-        font-size: 24px;
+        font-size: 28px;
         font-family: 'Nanum Myeongjo', serif;
         font-weight: bold;
 
     }
 
     .main .slide .s_v1 .s_bn section p {
-        font-size: 14px;
+        font-size: 18px;
         width: 100%;
         font-family: 'Nanum Myeongjo', serif;
-        font-weight: bold;
+        font-weight: 100;
         transform: translateY(-16%);
     }
 
@@ -109,7 +131,7 @@
         text-align: center;
         padding: 10px 20px; 
         margin-top: 20px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
    .goods .m_1 .description .section2 p:nth-of-type(1) {
@@ -164,7 +186,7 @@
 
     /*--*/
     .goods {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         font-family: 'Nanum Gothic Coding', monospace;
         font-size: 12px;
@@ -173,7 +195,8 @@
 
     .goods h2 {
         margin-top: 10%;
-        font-size: 20px;
+        padding-left: 4%;
+        font-size: 26px;
     }
 
     .goods .m_1 {
@@ -613,7 +636,7 @@
 
     /*--*/
     .goods {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         font-family: 'Nanum Gothic Coding', monospace;
         font-size: 12px;
@@ -623,7 +646,8 @@
     .goods h2 {
         margin-top: 10%;
         padding: 0;
-        font-size: 20px;
+        padding-left: 2%;
+        font-size: 22px;
     }
 
     .goods .m_1 {
@@ -687,7 +711,7 @@
     }
 
     .goods .m_1 .description .section2 p:nth-of-type(1) {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         
     }
@@ -695,14 +719,14 @@
     .goods .m_1 .description .section2 p:nth-of-type(2) {
         color: #888888;
         line-height: 2em;
-
+        font-size: 13px;
     }
 
     .goods .m_1 .description .section2 strong {
         color: #49904f;
         display: block;
         margin: 5% auto;
-        font-size: 15px;
+        font-size: 14px;
     }
 
 

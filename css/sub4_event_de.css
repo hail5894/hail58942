@@ -122,12 +122,9 @@ table tbody tr td figure img {
 }
 
 table tbody tr td figure figcaption {
-
     white-space: pre-line;
-    line-height: 30px;
+    line-height: 2.6em;
     margin-top: 60px;
-
-
 }
 
 table tbody tr td figure figcaption article {
@@ -135,19 +132,19 @@ table tbody tr td figure figcaption article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    margin-top: 15px;
+    width: 100%;
 }
 
 table tbody tr td figure figcaption article h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 
 table tbody tr td figure figcaption article p {
-    font-size: 14px;
+    font-size: 15px;
     color: #505051;
     margin-top: 40px;
 }
@@ -159,9 +156,7 @@ table tbody tr td figure figcaption article:nth-of-type(2) p {
 }
 
 table tbody tr td .small {
-    font-size: 10px;
-
-
+    font-size: 13px;
 }
 
 .file{

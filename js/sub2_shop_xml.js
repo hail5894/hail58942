@@ -30,6 +30,7 @@ $(function () {
             var jjim = JSON.parse(localStorage.getItem('type'));
             var fix_1 = JSON.parse(localStorage.getItem('fix'));
             var carted = JSON.parse(localStorage.getItem('cart'));
+            console.log(fix_1)
 
             function funList(code) {
                 product = '';

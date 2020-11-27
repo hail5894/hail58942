@@ -153,7 +153,7 @@ main {
 }
 
 .review_de .review-1 .re_list{
- 
+ font-size: 14px;
 }
 .review_de .review-1 .re_list tr{
  padding: 10px 0 8px 20px;
@@ -215,10 +215,9 @@ main {
     
 }
 .re_main p{
-   
     white-space: pre-line;
     margin: 6% 0;
-  
+    line-height: 1.5em;
 }
 
 
@@ -226,7 +225,7 @@ main {
 /*--------------------------------*/
 
 .review_de2 {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
 
@@ -248,6 +247,7 @@ main {
 
 .review_de2 ul li {
     padding: 0 0 0 10px;
+    font-size: 13px;
 }
 
 .review_de2 ul li a {
@@ -261,7 +261,10 @@ main {
 /*-------------*/
 .comment{
     background-color: #f7f7f7;
-    border: 1px solid #f0ede9;}
+    border: 1px solid #f0ede9;
+
+    font-size: 14px;
+}
 .comment_1{
     display: flex;
     justify-content: space-between;
@@ -305,7 +308,7 @@ main {
   
 }
 .comment_2 span{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -505,7 +508,8 @@ white-space: nowrap;
     }
 
 .re_main p{
-font-size: 12px;
+font-size: 13px;
+    
 }
 
 

@@ -305,7 +305,7 @@ header > article > div .nav2 ul li div a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     display: block;
     padding: 10px;
-    font-size: 14px;
+    font-size: 15px;
     white-space: nowrap;
     width: 70%;
 
@@ -434,7 +434,7 @@ aside .aside .gd p a {
 
 aside .aside .QR_code {
     width: 55px;
-    transform: translateX(-10%);
+    transform: translate(-10% , 10%);
 
 
 }
