@@ -25,7 +25,7 @@ main {
 .jjim .jjim_1 {text-align: center;}
 
 .jjim .jjim_1 hr {
-    width: 60%;
+    width: 70%;
     display: block;
     height: 1px;
     border: 0;
@@ -88,12 +88,10 @@ main {
 .goods .m_1 {
     margin: 1% auto;
     padding-right: 2%;
-
-
 }
 
 .goods .m_1 .m_1-1 {
-    border: 1px solid #000;
+    border: 1px solid #555;
 }
 
 .goods .m_1 .m_1-1 .description {
@@ -132,7 +130,7 @@ main {
 .goods .m_1 .m_1-1 .description figcaption .section1{
     position: absolute;
     left: 0%;
-    top: 50%;
+    top: 47%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -229,20 +227,19 @@ main {
     text-align: center;
     line-height: 40px;
     font-size: 0;
-     border-top: 1px solid #000;
-
-}
-
+     border-top: 1px solid #888;
+}   
 .goods .m_1 .buy_now a {
     font-size: 16px;
     display: inline-block;
     width: 50%;
     text-decoration: none;
-
-
+    
+    color: #1a1a1a;
 }
 .goods .m_1 .buy_now a:nth-of-type(2){
-    border-left: 1px solid #000;
+    border-left: 1px solid #888;
+     color: #1a1a1a;
 }
 /*----------------*/
 
@@ -262,13 +259,13 @@ main {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 2.2em;
 }
 
 
 .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(1){
-    font-size: 13px;
+    font-size: 15px;
 } 
 .goods .m_1 .m_1-1 .description .section2 p:nth-of-type(2) {
     color: #888888;

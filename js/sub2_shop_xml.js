@@ -163,7 +163,7 @@ $(function () {
                         product += "<p class='review'><a href='sub3_review.html'>후기글:" + review + "</a></p>"
                         product += "<div class='button'>"
                         product += "<button>"
-                        product += "<img src='img/icon_sch1.png' alt=''>"
+                        product += "<img  class='button_sch' src='img/icon_sch1.png' alt=''>"
                         product += "</button>"
                         product += "<button>"
                         product += "<img class='heart' src='img/icon_heart1.png' alt=''>"

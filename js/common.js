@@ -108,12 +108,12 @@ $(function () {
 
 $(function () {
     $('.sch_1').on('click', function () {
-        $(this).children('span').fadeIn(500);
+        alert('죄송합니다. 빠른 시일내로 준비하도록 하겠습니다.')
     });
 
     $('.tran').mouseleave(function () {
         $('.sch_1').children('span').fadeOut(500);
     });
-
+  
     //end
 });

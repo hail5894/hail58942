@@ -10,7 +10,10 @@ $(function () {
         $('button .heart').on('click', jjim);
         $('button #ex').on('click', carted);
         $('.m_1').on('click',fix_1);
-       
+        $('button .button_sch').on('click',function(){
+        alert('죄송합니다. 빠른 시일내로 준비하도록 하겠습니다.')
+        });  
+ 
         
         //fix
         function fix_1(e) {

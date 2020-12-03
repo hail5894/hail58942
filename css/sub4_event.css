@@ -129,11 +129,13 @@ main {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-
+    
+    font-size: 14px;
 }
 
 .events .m_1 .description figcaption .section2 strong {
     color: #505051;
+    font-size: 13px;
 }
 
 
