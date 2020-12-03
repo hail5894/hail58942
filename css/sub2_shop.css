@@ -21,7 +21,9 @@ main {
     margin-top: 12%;
 }
 
-.shop .shop_1 {}
+.shop .shop_1 {
+    margin-bottom: 1%;
+}
 
 .shop .shop_1 hr {
     width: 70%;
@@ -65,7 +67,7 @@ main {
 
 
 .shop .shop_2 {
- margin-bottom: 2%;
+ margin-bottom: 4%;
 
 }
 
@@ -100,7 +102,7 @@ main {
 }
 
 .goods {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 12px;

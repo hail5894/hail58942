@@ -97,14 +97,16 @@ table tbody tr th {
     width: 10%;
     font-weight: normal;
     padding: 10px 0 8px 10px;
+    
+    font-size: 14px;
 
 }
 
 table tbody tr td {
     padding: 0 40px;
-
+    font-size: 14px;
 }
-
+table tbody tr:nth-of-type(2) td{font-size: 13px;}
 
 table tbody tr td figure {
     width: 100%;
@@ -167,14 +169,14 @@ table tbody tr td .small {
 /*--------------------------------*/
 
 .event-2 {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 
 }
 
 .event-2 ul {
     border-bottom: 1px solid #e7e7e7;
-    font-size: .8em;
+    font-size: 13px;
     width: 100%;
     padding: 10px 0 8px 10px;
 
@@ -195,4 +197,6 @@ table tbody tr td .small {
     text-decoration: none;
 }
 
-.event-2 ul li a strong {}
+.event-2 ul li a strong {
+    font-weight: 600;
+}
