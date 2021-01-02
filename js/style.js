@@ -120,7 +120,7 @@ $(function () {
         slidesToScroll: 1,
         //버튼 누를때 바뀌는 슬라이드 개수 (한칸씩이동)
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 2000,
 
     });
 
