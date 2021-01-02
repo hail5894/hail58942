@@ -941,6 +941,8 @@ table td span > strong {
         line-height: 1.5;
         margin-top: 20px;
         width: 140%;
+  
+        margin-left: -10%;
     }
 
     .product tbody tr td {
@@ -1218,6 +1220,8 @@ table td span > strong {
         line-height: 1;
         margin-top: 20px;
         width: 120%;
+        
+        margin-left: -5%;
     }
 
     .product tbody tr td {
