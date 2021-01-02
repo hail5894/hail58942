@@ -13,7 +13,8 @@ function init() {
     arrow[1].addEventListener('click', next);
 
 
-    function prev() {
+    function prev(e) {
+        e.preventDefault();
         if (idx != 0) {
             idx--;
         }
@@ -28,7 +29,8 @@ function init() {
     slide.style.transition = '1s';
     slide.style = "left:" + (-idx * 100) + "%;";
 
-    function next() {
+    function next(e) {
+        e.preventDefault();
         slide.style.transition = '1s';
         if (idx != slide_1.length - 1) {
             idx++;
