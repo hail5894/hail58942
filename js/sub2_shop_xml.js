@@ -150,7 +150,7 @@ $(function () {
 
                         product += "<div class='m_1 event col-md-3 col-sm-6 col-xs-12' data-type='" + num + "'>"
                         product += "<figure class='description'>"
-                        product += "<a href='"+url+"'>"
+                        product += "<a href='sub2_shop_de.html'>"
                         product += "<p><img src='" + imgSrc + "' alt=''></p>"
                         product += "</a>"
                         if (!code == event) {
